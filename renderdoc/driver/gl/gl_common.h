@@ -1424,6 +1424,12 @@ enum class GLChunk : uint32_t
   glMapBufferOES,
   glMapBufferRange,
   glFlushMappedBufferRange,
+
+  glEGLImageTargetTexture2DOES,
+  glEGLImageTargetRenderbufferStorageOES,
+  glEGLImageTargetTexStorageEXT,
+  glEGLImageTargetTextureStorageEXT,
+
   glUnmapBuffer,
   glUnmapBufferARB,
   glUnmapBufferOES,
